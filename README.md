@@ -12,6 +12,14 @@ El análisis se centra en tres episodios de inestabilidad:
 * Repunte inflacionario de 2021.
 * Inicio de la invasión rusa en Ucrania en 2022.
 
+En el proyecto se implementan y comparan las siguientes familias de modelos:
+
+* Modelos SARIMA.
+* Modelos de suavización exponencial ETS.
+* Modelos de regresión dinámica.
+* Modelos MIDAS restringidos con correcciones SARIMA.
+* Combinaciones de predicciones mediante la media aritmética y media ponderada por pesos inversamente proporcionales al RMSFE.
+
 ## Fuentes de datos
 
 Las series utilizadas proceden de fuentes públicas y oficiales:
@@ -51,9 +59,8 @@ tfm-prediccion-ipc-espana/
 * `datos/procesados/`: contiene los datos transformados y preparados para la modelización.
 * `scripts/python/`: contiene los scripts utilizados para la limpieza, transformación y visualización de datos.
 * `scripts/r/`: contiene los scripts utilizados para el ajuste, validación y evaluación de los modelos econométricos.
-* `results/tables/`: contiene las tablas de métricas y resultados generadas durante el análisis.
-* `results/figures/`: contiene las figuras y visualizaciones incluidas en la memoria.
-* `docs/`: contiene documentación auxiliar del proyecto.
+* `resultados/tablas/`: contiene las tablas de métricas y resultados generadas durante el análisis.
+* `resultados/figuras/`: contiene las figuras y visualizaciones incluidas en la memoria.
 
 ## Guía de ejecución
 
