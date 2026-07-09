@@ -62,9 +62,6 @@ tfm-prediccion-ipc-espana/
 * `resultados/tablas/`: contiene las tablas de métricas y resultados generadas durante el análisis.
 * `resultados/figuras/`: contiene las figuras y visualizaciones incluidas en la memoria.
 
-## Guía de ejecución
-
-Pendiente: se expone el orden en el que se deben ejecutar los scripts para obtener las tablas finales. 
 
 ## Autor
 
